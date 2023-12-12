@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Character">
+      <UniqueIdentifier>{72433DA5-DEAD-F11B-27EC-A2C19395CF70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DIVE">
+      <UniqueIdentifier>{2D9B837C-19D2-840D-C2BE-6A10AED4000F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Item">
+      <UniqueIdentifier>{1412877C-0049-880D-A935-6E10954B040F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NPC">
+      <UniqueIdentifier>{4609880B-B212-887C-3B8E-9E7CA796937C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quest">
+      <UniqueIdentifier>{37A6FA0D-A3BA-22BF-6C3C-C61ED80F1FF0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering">
+      <UniqueIdentifier>{E3AE1F7C-4F19-D4F2-9857-85980401B247}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{700bb8b9-dc02-41cb-bddc-ee87b5e303ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Level">
+      <UniqueIdentifier>{c02d4be3-a30f-455f-a887-8803c26a2333}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Character\Character.h">
+      <Filter>Character</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DIVE\DIVE.h">
+      <Filter>DIVE</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DIVE\DIVESerializer.h">
+      <Filter>DIVE</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DIVE\DIVETag.h">
+      <Filter>DIVE</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Item\Item.h">
+      <Filter>Item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Item\ItemInventory.h">
+      <Filter>Item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Item\ItemTemplate.h">
+      <Filter>Item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\NPC\DecisionTree.h">
+      <Filter>NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Quest\Quest.h">
+      <Filter>Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Quest\QuestGoal.h">
+      <Filter>Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Rendering\Sprite.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Rendering\TextRenderer.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Rendering\Buffer.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Rendering\RenderList.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Rendering\Color.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Rendering\Viewport.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Level\Components.h">
+      <Filter>Level</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Level\Entities.h">
+      <Filter>Level</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Level\Level.h">
+      <Filter>Level</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Level\Tile.h">
+      <Filter>Level</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\Common.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\Console.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\Input.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game.h" />
+    <ClInclude Include="src\Core\Event.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Level\Systems.h">
+      <Filter>Level</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\DIVE\DIVESerializer.cpp">
+      <Filter>DIVE</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DIVE\DIVETag.cpp">
+      <Filter>DIVE</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Item\Item.cpp">
+      <Filter>Item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Item\ItemInventory.cpp">
+      <Filter>Item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Item\ItemTemplate.cpp">
+      <Filter>Item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Main.cpp" />
+    <ClCompile Include="src\NPC\DecisionTree.cpp">
+      <Filter>NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Quest\Quest.cpp">
+      <Filter>Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Quest\QuestGoal.cpp">
+      <Filter>Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Rendering\Buffer.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Rendering\Sprite.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Level\Level.cpp">
+      <Filter>Level</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Console.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Input.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
