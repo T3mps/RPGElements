@@ -135,6 +135,7 @@
     <ClCompile Include="src\Quest\QuestGoal.cpp" />
     <ClCompile Include="src\Rendering\Buffer.cpp" />
     <ClCompile Include="src\Rendering\Sprite.cpp" />
+    <ClCompile Include="src\Rendering\TextRenderer.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

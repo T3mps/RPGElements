@@ -145,5 +145,8 @@
     <ClCompile Include="src\Core\Input.cpp">
       <Filter>Core</Filter>
     </ClCompile>
+    <ClCompile Include="src\Rendering\TextRenderer.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
