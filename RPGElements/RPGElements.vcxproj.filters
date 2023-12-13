@@ -103,6 +103,7 @@
     <ClInclude Include="src\Level\Systems.h">
       <Filter>Level</Filter>
     </ClInclude>
+    <ClInclude Include="src\GameTelemetry.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\DIVE\DIVESerializer.cpp">

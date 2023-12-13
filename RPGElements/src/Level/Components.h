@@ -18,7 +18,8 @@ namespace Component
    struct Renderable
    {
       Sprite sprite;
+      uint16_t zIndex;
 
-      Renderable(Sprite renderableSprite) : sprite(renderableSprite) {}
+      Renderable(Sprite renderableSprite, uint16_t zIdx) : sprite(renderableSprite), zIndex(zIdx) {}
    };
 }
