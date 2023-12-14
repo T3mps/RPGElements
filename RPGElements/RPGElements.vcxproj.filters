@@ -104,6 +104,9 @@
       <Filter>Level</Filter>
     </ClInclude>
     <ClInclude Include="src\GameTelemetry.h" />
+    <ClInclude Include="src\Rendering\Camera.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\DIVE\DIVESerializer.cpp">
@@ -147,6 +150,9 @@
       <Filter>Core</Filter>
     </ClCompile>
     <ClCompile Include="src\Rendering\TextRenderer.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Rendering\RenderList.cpp">
       <Filter>Rendering</Filter>
     </ClCompile>
   </ItemGroup>
