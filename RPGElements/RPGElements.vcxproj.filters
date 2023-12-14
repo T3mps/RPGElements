@@ -107,6 +107,9 @@
     <ClInclude Include="src\Rendering\Camera.h">
       <Filter>Rendering</Filter>
     </ClInclude>
+    <ClInclude Include="src\Rendering\Defines.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\DIVE\DIVESerializer.cpp">

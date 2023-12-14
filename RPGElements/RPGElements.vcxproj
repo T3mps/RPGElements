@@ -117,6 +117,7 @@
     <ClInclude Include="src\Rendering\Buffer.h" />
     <ClInclude Include="src\Rendering\Camera.h" />
     <ClInclude Include="src\Rendering\Color.h" />
+    <ClInclude Include="src\Rendering\Defines.h" />
     <ClInclude Include="src\Rendering\RenderList.h" />
     <ClInclude Include="src\Rendering\Sprite.h" />
     <ClInclude Include="src\Rendering\TextRenderer.h" />
